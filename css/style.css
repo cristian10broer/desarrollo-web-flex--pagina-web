@@ -98,7 +98,7 @@ p {
 .container_inicio{
     height: 600px;
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction:column;
     align-items: center;
     
 }
@@ -131,14 +131,16 @@ footer {
 }
 
 /*css para la pagina servicios */
+.img_servicios{
+    width: 400px;
+}
 
 .container_servicios{
    
     display: flex;
     flex-direction:column;
-    
     gap:20;
-    width: 400px;
+    
    
 }
 .row{
@@ -194,7 +196,7 @@ footer {
 /*Css para la pagina nosotros*/
 .container_nosotros{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
 }
